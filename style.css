@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+}
+
+.container-one {
+    background-color:#74C69D;
+}
+
+header,
+.header-logo,
+.header-links-items,
+.container-one-two {
+    display: flex;
+    
+}
+
+header {
+    justify-content: space-between;
+    padding: 35px 130px 40px 135px;
+    align-items: center;
+}
+
+.logo-img {
+    padding-right: 18px;
+}
+
+.logo-txt,
+.list-link,
+a,
+h3,
+.main-paragraph {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+.logo-txt {
+    
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+}
+
+.list-link {
+    padding-left: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-one-two {
+    padding-left: 130px;
+    padding-right: 130px;
+    justify-content: space-between;
+}
+
+.container-one-two-txt {
+    width: 416px;
+    height: 226px;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.main-heading {
+    font-family: 'Crimson Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.main-paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.75);
+    padding-bottom: 25px;
+}
+
+.explore-btn {
+    width: 170px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    border-style: none;
+}
+
+.container-one-two-img {
+    padding: 40px 120px 85px 130px;
+}
