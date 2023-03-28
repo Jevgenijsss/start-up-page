@@ -108,5 +108,49 @@ h3 {
 }
 
 .heading-green {
-    color: #74C69D; 
+    color: #74C69D;
+    margin: 0;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7vh 10vw 7vh 10vw;
+    width: 80vw;
+}
+
+.container-two-main-heading {
+    margin: 1.5vh 0 1.5vh 0;
+}
+
+.container-two-text {
+    margin: 0 0 5vh 0;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    width: 30vw;
+   
+}
+
+.container-two-logos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+
+.container-two-btn {
+    margin-top: 5.5vh;
+    width: 11vw;
+    height: 3.5vw;
+    background: #212529;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
 }
