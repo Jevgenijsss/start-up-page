@@ -202,3 +202,40 @@ h3 {
 .container-four-img {
     margin-right: 10vw;
 }
+
+.talent {
+    width: 25vw;
+    height: 30vh;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-right: 4vw;
+}
+
+.talent > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.talent > h2 {
+    font-family: 'Crimson Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    color: #212529;
+    margin: 0 0 0 3vw;
+}
+
+.talent > p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: rgba(33, 37, 41, 0.75);
+    margin-left: 3vw;
+}
