@@ -163,7 +163,7 @@ h3 {
 }
 
 .container-three-txt {
-    margin-left: 5vw;
+    margin-left: 8vw;
     width: 25vw;
 }
 
@@ -187,4 +187,18 @@ h3 {
 
 .container-three-txt > button {
     margin-top: 0;
+}
+
+.container-four {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10vh;
+}
+
+.container-three-txt.four {
+    align-self: center;
+}
+
+.container-four-img {
+    margin-right: 10vw;
 }
