@@ -239,3 +239,21 @@ h3 {
     color: rgba(33, 37, 41, 0.75);
     margin-left: 3vw;
 }
+
+footer {
+    background: #74C69D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 9vw 5vh 9vw;
+}
+
+.icon-links {
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer > p {
+    margin: 0;
+}
